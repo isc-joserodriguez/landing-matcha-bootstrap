@@ -1,0 +1,29 @@
+/*Header*/
+
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    margin: 60px 0;
+    transition: all .5s;
+}
+
+header.hdr-sm {
+    margin: 0;
+    background: none;
+}
+
+header.hdr-up {
+    background-color: white;
+}
+
+header.hdr-dw .visibility {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility .5s, opacity .5s;
+}
+
+header a {
+    color: #025157;
+}
