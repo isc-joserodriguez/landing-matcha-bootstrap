@@ -69,17 +69,17 @@ header .btn-success {
     color: #4a4a4a;
 }
 
-.card-img{
+.card-img {
     overflow: hidden;
 }
 
-.card-img img{
-    width:100%;
+.card-img img {
+    width: 100%;
     border-radius: 5px;
     transition: all .5s ease-in-out;
 }
 
-.card-img img:hover{
+.card-img img:hover {
     transform: scale(1.05) rotate(2deg);
 }
 
@@ -91,4 +91,25 @@ header .btn-success {
 
 .section-features h3:hover {
     color: #67b54b
+}
+
+/* Tools */
+
+.section-tools h2 {
+    font-size: 40px;
+    color: #025157;
+    font-weight: 1000;
+}
+
+.section-tools img {
+    max-width: 38px
+}
+
+.section-tools h3 {
+    font-size: 18px;
+}
+
+.section-tools p {
+    font-size: 15px;
+    color: #7e7e7e;
 }
