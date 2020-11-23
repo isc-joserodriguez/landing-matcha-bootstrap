@@ -24,8 +24,13 @@ header a {
     color: #025157;
 }
 
-header .btn-success {
+.btn-success {
     background-color: #025157;
+    border: 0;
+}
+
+.btn-success.btn-normal {
+    background-color: #67b54b;
 }
 
 /* Video */
@@ -142,7 +147,65 @@ header .btn-success {
     height: 250px;
 }
 
-.carousel-img > img {
+.carousel-img>img {
     width: 100%;
     height: 100%;
+}
+
+/* Footer */
+.block-footer{
+    background-color: #025157;
+    color: white;
+}
+
+.block-footer a{
+    color: #67b54b;
+    text-decoration: none;
+}
+
+.block-footer h3+p {
+    font-size: 17px;
+}
+
+.block-footer button+p {
+    font-size: 12px;
+    color: #c8c8c8;
+}
+
+.nav-footer h5 {
+    font-size: 13px;
+    color: #025157;
+}
+
+.nav-footer p {
+    font-size: 16px;
+    color: #4a4a4a;
+    padding-right: 200px;
+    margin-bottom: 30px;
+}
+.nav-footer input{
+    height: 48px;
+    border: 1px solid #025157;
+}
+input[type="email"] {
+    border-radius: 10px 0px 0px 10px;
+}
+
+input[type="submit"] {
+    background-color: #025157;
+    color:white;
+    border-radius: 0px 10px 10px 0px;
+    margin-left: -5px;
+    padding: 15px 20px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    font-size: 20px;
+    color:#4a4a4a;
+    transition: all .2s ease-in-out;
+}
+
+.footer-links a:hover{
+    color: #67b54b;
 }
